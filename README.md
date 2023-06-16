@@ -2,10 +2,11 @@
 <h1> Aplicativo God Of War </h1>
 <br>
 <h2> Introdução </h2>
+Neste trabalho desenvolvemos um aplicativo estático como se fosse um "livro" de informações 
+sobre o jogo <strong> God Of War</strong>.
+Nele consiste quatro aplicações obrigatórias que foram utilizadas, sendo elas:
 <br>
-<p> Neste trabalho desenvolvemos um aplicativo estático como se fosse um "livro" de informações 
-sobre o jogo <strong> God Of War</strong>. </p>
-<p> Nele consiste quatro aplicações obrigatórias que foram utilizadas, sendo elas: </p>
+<br>
 <ul><li> 
 Mínimo de 05 Activities distintas (dados e componentes de tela);
 </li></ul>
@@ -119,7 +120,13 @@ e um único botão (button) para voltar desde o começo do app. </p>
 <strong> Métodos para abrir atividades: </strong> Existe um método (openMenuActivity) que é chamado quando o botão é clicado. Esse método cria um objeto Intent que representa
  a intenção de abrir a atividade principal (MainActivity) e, em seguida, chama o método startActivity() para iniciar essa atividade.
 </li></ul>
+<br>
 
 <h2> Sobre a intent explicita </h2>
-<p> Para trazer uma imersão maior dentro do aplicativo escolhemos como uma <strong> Intents Explicitas </strong> uma música relacionada ao tema que escolhemos.</p>
+<p> Para trazer uma imersão maior dentro do aplicativo escolhemos como uma <strong> Intents Explicitas </strong> uma música relacionada ao tema que escolhemos. Ela foi aplicada como uma string
+sendo também possivél clicar nela. </p>
 <p><strong> Como funciona o código: </strong></p>
+<p> A string possui o nome "link" e o valor é o seguinte texto:
+"Clique <a href = "https://www.youtube.com/watch?v=V5Ar0dKnl6Y"> aqui </a> para ouvir a trilha sonora do jogo"
+Dentro do texto, há uma tag HTML <a> que envolve a palavra "aqui". Essa tag <a> define um hiperlink. O atributo href contém o endereço URL para onde o link deve redirecionar, que é "https://www.youtube.com/watch?v=V5Ar0dKnl6Y". Na aplicação, o link está definido para redirecionar para um vídeo no YouTube que representa a trilha sonora do jogo.
+Ao utilizar essa string em um aplicativo Android, ela pode ser processada e exibida em uma interface do usuário que suporta renderização de HTML, como um TextView com a propriedade android:autoLink="web" definida. Isso permitiria que o usuário clicasse no link "aqui" para acessar o vídeo da trilha sonora do jogo no YouTube.</p>
