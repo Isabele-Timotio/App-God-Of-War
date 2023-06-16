@@ -62,6 +62,64 @@ ir a próxima tela e o outro para voltar ao menu. </p>
 <br>
 
 <h2> Tela dos personagens </h2>
-<p><strong> Explicação do layout: </strong> como podemos ver aqui temos alguns personagens do jogo sendo apresentados (ImageView) e como na tela anterior dois botões (button) sendo
+<p><strong> Explicação do layout: </strong> como podemos ver aqui temos alguns personagens do jogo sendo apresentados (ImageView) e como na tela anteriores dois botões (button) sendo
 um para ir a próximoa tela e outro para voltar ao menu.</p>
+<p><strong> Como funciona o código: </strong></p>
+<ul> <li> 
+<strong> Declaração dos botões: </strong> São declarados quatro objetos do tipo Button para representar os botões na interface do usuário;
+</li></ul>
+<ul> <li> 
+<strong>  Método onCreate(): </strong> Esse método é chamado quando a atividade é criada. Nele, são realizadas as seguintes ações:
+ <ul><li> Chamada do método onCreate() da superclasse para executar a lógica básica de criação da atividade. </ul></li>
+ <ul><li> Definição do layout da atividade usando o método setContentView(). </ul></li>
+ <ul><li> Associação dos objetos Button aos botões correspondentes no layout usando o método findViewById().  </ul></li>
+ <ul><li> Definição dos listeners de clique para cada botão. Quando um botão é clicado, um método correspondente é chamado.  </ul></li>
+</li></ul>
+<ul><li>
+<strong> Métodos para abrir atividades: </strong> Existem dois métodos (openMenuActivity, openNextActivity) que são chamados quando os botões são clicados. Cada um desses 
+  métodos cria um objeto Intent que representa a intenção de abrir uma determinada atividade e, em seguida, chama o método startActivity() para iniciar a atividade correspondente.
+</li></ul>
+<br>
+
+<h2> Tela de armas </h2>
+<p><strong> Explicação do layout: </strong>  aqui obtemos três imagens das armas do jogos, sendo elas as mais importantes. Todas são ImageView e contemos como nas telas anteriores 
+ dois botões (button) sendo um para ir a próximoa tela e outro para voltar ao menu. </p>
+<p><strong> Como funciona o código: </strong></p>
+<ul> <li> 
+<strong> Declaração dos botões: </strong> São declarados quatro objetos do tipo Button para representar os botões na interface do usuário;
+</li></ul>
+<ul> <li> 
+<strong>  Método onCreate(): </strong> Esse método é chamado quando a atividade é criada. Nele, são realizadas as seguintes ações:
+ <ul><li> Chamada do método onCreate() da superclasse para executar a lógica básica de criação da atividade. </ul></li>
+ <ul><li> Definição do layout da atividade usando o método setContentView(). </ul></li>
+ <ul><li> Associação dos objetos Button aos botões correspondentes no layout usando o método findViewById().  </ul></li>
+ <ul><li> Definição dos listeners de clique para cada botão. Quando um botão é clicado, um método correspondente é chamado.  </ul></li>
+</li></ul>
+<ul><li>
+<strong> Métodos para abrir atividades: </strong> Existem dois métodos (openMenuActivity, openNextActivity) que são chamados quando os botões são clicados. Cada um desses 
+  métodos cria um objeto Intent que representa a intenção de abrir uma determinada atividade e, em seguida, chama o método startActivity() para iniciar a atividade correspondente.
+</li></ul>
+<br>
+
+<h2> Tela de mensagem </h2>
+<p><strong> Explicação do layout: </strong> e por último temos a tela da mensagem final que queríamos deixar ao usuário sobre o jogo. Contento o TextView para a escrita desta mensagem
+e um único botão (button) para voltar desde o começo do app. </p>
+<p><strong> Como funciona o código: </strong></p>
+<ul> <li> 
+<strong> Declaração dos botões: </strong> São declarados quatro objetos do tipo Button para representar os botões na interface do usuário;
+</li></ul>
+<ul> <li> 
+<strong>  Método onCreate(): </strong> Esse método é chamado quando a atividade é criada. Nele, são realizadas as seguintes ações:
+ <ul><li> Chamada do método onCreate() da superclasse para executar a lógica básica de criação da atividade. </ul></li>
+ <ul><li> Definição do layout da atividade usando o método setContentView(). </ul></li>
+ <ul><li> Associação dos objetos Button aos botões correspondentes no layout usando o método findViewById().  </ul></li>
+ <ul><li> Definição dos listeners de clique para cada botão. Quando um botão é clicado, um método correspondente é chamado.  </ul></li>
+</li></ul>
+<ul><li>
+<strong> Métodos para abrir atividades: </strong> Existe um método (openMenuActivity) que é chamado quando o botão é clicado. Esse método cria um objeto Intent que representa
+ a intenção de abrir a atividade principal (MainActivity) e, em seguida, chama o método startActivity() para iniciar essa atividade.
+</li></ul>
+
+<h2> Sobre a intent explicita </h2>
+<p> Para trazer uma imersão maior dentro do aplicativo escolhemos como uma <strong> Intents Explicitas </strong> uma música relacionada ao tema que escolhemos.</p>
 <p><strong> Como funciona o código: </strong></p>
