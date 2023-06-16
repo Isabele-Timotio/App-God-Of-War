@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Gow</string>
+    <string name="text_god_of_war"> God Of War </string>
+    <string name="buttonInfo"> História </string>
+    <string name="buttonPersonagem"> Personagens </string>
+    <string name="buttonArmas" >Armas</string>
+    <string name="buttonMensagem"> Mensagem </string>
+    /* alteration tela 2 */
+    <string name="text_view"> Sinopse </string>
+    <string name="buttonMenu"> Menu </string>
+    <string name="buttonProximo"> Próximo </string>
+    /* alteration tela 3 */
+    <string name="buttonMenu2"> Menu </string>
+    <string name="buttonProximo2"> Próximo </string>
+    <string name="buttonitens">Armas</string>
+    <string name="buttoniten" type="id">Armas</string>
+    <string name="textohistoria" type="id">Em Resumo, Kratos, que em seus antigos jogos era um general espartano que passa por um arco de ganância, destruição, vingança que o consumiu a ponto de destruir o olimpo, e um pequeno ato de redenção no final. Após esses eventos, ele está em outra mitologia, agora com Atreus, ser filho, e tentando se redimir por todos a sua destruição tentando criar seu filho da melhor maneira possível. Encontrando personagens como Baldur, Freya, Thor e Odin, os dois passam por muitos desafios, no jogo de 2018, eles tem a intenção de realizar o último desejo da mãe de Atreus, e no de 2022, libertar os 9 reinos.</string>
+    <string name="textomensagem" type="id">God of War tem uma das histórias mais bonitas já contadas, e uma mensagem reflexiva sobre redenção, não importando quem você é e de onde você vem, você sempre terá oportunidades para evoluir como pessoa e se toranr alguém melhor. Nessa jornada, acompanhamos um ser ganacioso e vingativo tomar um caminho que não trouxe nada além de dor e destruição, mas tendo sua chance de redenção, ao se tornar o "Salvador de Mundos" dos 9 reinos, um herói para todos aqueles que ainda poderiam temê-lo.</string>
+    <string name="link">
+        Clique <a href = "https://youtu.be/XVsm0-aVe4o"> aqui </a> para ver essa cena maravilhosa.
+    </string>
+    <string name="link2">
+        Clique <a href = "https://open.spotify.com/playlist/361ktNodxRmR3w5VDCeIcm?si=9ff8d3c3fa7548cd"> aqui </a> para ouvir a trilha sonora do jogo.
+    </string>
+    <string name="link3">
+        Conheça o fantasma de <a href = "https://www.google.com.br/maps/place/Esparta+231+00,+Gr%C3%A9cia/@36.4977976,22.236999,6.75z/data=!4m6!3m5!1s0x1361d2760a6f3319:0x55c178decfd13663!8m2!3d37.074461!4d22.430264!16s%2Fm%2F02r15xm?entry=ttu"> Esparta </a> vendo o lugar que ele nasceu
+    </string>
+
+</resources>
