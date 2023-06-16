@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/armas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityArmas"
+    android:background="@drawable/fundo5">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="134dp"
+        android:layout_height="183dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497"
+        app:srcCompat="@drawable/lan_a" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="134dp"
+        android:layout_height="182dp"
+        android:src="@drawable/machado"
+        app:layout_constraintBottom_toTopOf="@+id/buttonProximo4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="136dp"
+        android:layout_height="181dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMenu4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.826"
+        app:srcCompat="@drawable/lamina" />
+
+    <Button
+        android:id="@+id/buttonMenu4"
+        android:layout_width="112dp"
+        android:layout_height="53dp"
+        android:text="@string/buttonMenu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.902" />
+
+    <Button
+        android:id="@+id/buttonProximo4"
+        android:layout_width="108dp"
+        android:layout_height="55dp"
+        android:text="Próximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toEndOf="@+id/buttonMenu4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.905" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
