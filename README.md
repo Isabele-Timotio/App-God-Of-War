@@ -22,8 +22,10 @@ Existem dentro do app pelo menos 03 Intents Implícitas distintas (em qualquer p
 <br>
 
 <h2> Tela inicial </h2>
-<p> <strong>Explicação do layout:</strong> na tela inicial temos quatro botões (button), uma imagem de fundo (ImageView) e
-o nome do aplicativo (TextView). </p>
+<p> <strong>Explicação do layout:</strong> na tela inicial temos quatro botões (button), uma imagem de fundo (ImageView),
+o nome do aplicativo e mais um link para a música (2 TextView). </p>
+![image](https://github.com/Isabele-Timotio/App-God-Of-War/assets/101645908/21214ac6-ad45-4f79-a81e-8e36810fe93c)
+
 <p><strong> Como funciona o código: </strong></p>
 <ul> <li> 
 <strong> Declaração dos botões: </strong> São declarados quatro objetos do tipo Button para representar os botões na interface do usuário;
@@ -43,8 +45,10 @@ o nome do aplicativo (TextView). </p>
 <br>
 
 <h2> Tela da história </h2>
-<p><strong> Explicação do layout: </strong> nesta tela optamos por deixar mais simples tendo apenas a sinopse do jogo (TextView) e dois botões (butonn), sendo um para
+<p><strong> Explicação do layout: </strong> nesta tela optamos por deixar mais simples tendo apenas a sinopse do jogo, o link para conhecer um elemento do jogo (3 TextView) e dois botões (butonn), sendo um para
 ir a próxima tela e o outro para voltar ao menu. </p>
+![image](https://github.com/Isabele-Timotio/App-God-Of-War/assets/101645908/7adceaf4-8b47-46fc-8e37-172eb083bbeb)
+
 <p><strong> Como funciona o código: </strong></p>
 <ul> <li> 
 <strong> Declaração dos botões: </strong> São declarados quatro objetos do tipo Button para representar os botões na interface do usuário;
@@ -63,8 +67,10 @@ ir a próxima tela e o outro para voltar ao menu. </p>
 <br>
 
 <h2> Tela dos personagens </h2>
-<p><strong> Explicação do layout: </strong> como podemos ver aqui temos alguns personagens do jogo sendo apresentados (ImageView) e como na tela anteriores dois botões (button) sendo
+<p><strong> Explicação do layout: </strong> como podemos ver aqui temos alguns personagens do jogo sendo apresentados (12 ImageView) e como na tela anteriores dois botões (button) sendo
 um para ir a próximoa tela e outro para voltar ao menu.</p>
+![image](https://github.com/Isabele-Timotio/App-God-Of-War/assets/101645908/d083e00b-103b-4f43-ac28-0961402a3e65)
+
 <p><strong> Como funciona o código: </strong></p>
 <ul> <li> 
 <strong> Declaração dos botões: </strong> São declarados quatro objetos do tipo Button para representar os botões na interface do usuário;
@@ -85,6 +91,8 @@ um para ir a próximoa tela e outro para voltar ao menu.</p>
 <h2> Tela de armas </h2>
 <p><strong> Explicação do layout: </strong>  aqui obtemos três imagens das armas do jogos, sendo elas as mais importantes. Todas são ImageView e contemos como nas telas anteriores 
  dois botões (button) sendo um para ir a próximoa tela e outro para voltar ao menu. </p>
+ ![image](https://github.com/Isabele-Timotio/App-God-Of-War/assets/101645908/6b9abaab-47de-4dd4-93fe-8d4cfc4fae54)
+
 <p><strong> Como funciona o código: </strong></p>
 <ul> <li> 
 <strong> Declaração dos botões: </strong> São declarados quatro objetos do tipo Button para representar os botões na interface do usuário;
@@ -103,8 +111,10 @@ um para ir a próximoa tela e outro para voltar ao menu.</p>
 <br>
 
 <h2> Tela de mensagem </h2>
-<p><strong> Explicação do layout: </strong> e por último temos a tela da mensagem final que queríamos deixar ao usuário sobre o jogo. Contento o TextView para a escrita desta mensagem
-e um único botão (button) para voltar desde o começo do app. </p>
+<p><strong> Explicação do layout: </strong> e por último temos a tela da mensagem final que queríamos deixar ao usuário sobre o jogo. Contento o TextView para a escrita desta mensagem e o link para
+ ver uma cena do jogo e um único botão (button) para voltar desde o começo do app. </p>
+![image](https://github.com/Isabele-Timotio/App-God-Of-War/assets/101645908/8485ba05-240b-4aa9-8070-0cc22e0a7f02)
+
 <p><strong> Como funciona o código: </strong></p>
 <ul> <li> 
 <strong> Declaração dos botões: </strong> São declarados quatro objetos do tipo Button para representar os botões na interface do usuário;
@@ -123,7 +133,7 @@ e um único botão (button) para voltar desde o começo do app. </p>
 <br>
 
 <h2> Sobre a intent explicita </h2>
-<p> Para trazer uma imersão maior dentro do aplicativo escolhemos como uma <strong> Intents Explicitas </strong> uma música relacionada ao tema que escolhemos. Ela foi aplicada como uma string
+<p> Para trazer uma imersão maior dentro do aplicativo escolhemos como uma <strong> Intents Explicitas </strong> uma música relacionada ao tema que escolhemos e duas cenas do jogo. Ela foi aplicada como uma string
 sendo também possivél clicar nela. </p>
 <p><strong> Como funciona o código: </strong></p>
 <p> A string possui o nome "link" e o valor é o seguinte texto:
