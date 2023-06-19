@@ -19,6 +19,7 @@ Utilizado Intents Explicitas com envio de informações para navegação;
 <ul><li>
 Existem dentro do app pelo menos 03 Intents Implícitas distintas (em qualquer ponto da aplicação);
 </li></ul>
+<h2> Link da apresentação: https://drive.google.com/file/d/1KrStfQUotgYUskPeCjma3IjDSaen5QBp/view?usp=sharing </h2>
 <br>
 
 <h2> Tela inicial </h2>
